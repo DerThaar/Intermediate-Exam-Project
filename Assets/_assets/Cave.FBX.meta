@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: 7457938e85e3acd48ac3fe2cb035d70a
+timeCreated: 1528200999
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Plane004
+    100004: Stone003
+    100006: Stone004
+    100008: Stone005
+    100010: Stone006
+    100012: Stone007
+    100014: Stone008
+    100016: Stone009
+    100018: Stone010
+    100020: Stone011
+    100022: Stone012
+    100024: Stone013
+    100026: Stone014
+    100028: Stone015
+    100030: Stone016
+    100032: Stone017
+    100034: Stone018
+    100036: Stone019
+    100038: Stone020
+    100040: Stone021
+    100042: Stone022
+    100044: Stone023
+    400000: //RootNode
+    400002: Plane004
+    400004: Stone003
+    400006: Stone004
+    400008: Stone005
+    400010: Stone006
+    400012: Stone007
+    400014: Stone008
+    400016: Stone009
+    400018: Stone010
+    400020: Stone011
+    400022: Stone012
+    400024: Stone013
+    400026: Stone014
+    400028: Stone015
+    400030: Stone016
+    400032: Stone017
+    400034: Stone018
+    400036: Stone019
+    400038: Stone020
+    400040: Stone021
+    400042: Stone022
+    400044: Stone023
+    2100000: No Name
+    2300000: //RootNode
+    2300002: Plane004
+    2300004: Stone003
+    2300006: Stone004
+    2300008: Stone005
+    2300010: Stone006
+    2300012: Stone007
+    2300014: Stone008
+    2300016: Stone009
+    2300018: Stone010
+    2300020: Stone011
+    2300022: Stone012
+    2300024: Stone013
+    2300026: Stone014
+    2300028: Stone015
+    2300030: Stone016
+    2300032: Stone017
+    2300034: Stone018
+    2300036: Stone019
+    2300038: Stone020
+    2300040: Stone021
+    2300042: Stone022
+    2300044: Stone023
+    3300000: //RootNode
+    3300002: Plane004
+    3300004: Stone003
+    3300006: Stone004
+    3300008: Stone005
+    3300010: Stone006
+    3300012: Stone007
+    3300014: Stone008
+    3300016: Stone009
+    3300018: Stone010
+    3300020: Stone011
+    3300022: Stone012
+    3300024: Stone013
+    3300026: Stone014
+    3300028: Stone015
+    3300030: Stone016
+    3300032: Stone017
+    3300034: Stone018
+    3300036: Stone019
+    3300038: Stone020
+    3300040: Stone021
+    3300042: Stone022
+    3300044: Stone023
+    4300000: "H\xF6hle"
+    4300002: Stone003
+    4300004: Stone004
+    4300006: Stone005
+    4300008: Stone006
+    4300010: Stone007
+    4300012: Stone008
+    4300014: Stone009
+    4300016: Stone010
+    4300018: Stone011
+    4300020: Stone012
+    4300022: Stone013
+    4300024: Stone014
+    4300026: Stone015
+    4300028: Stone016
+    4300030: Stone017
+    4300032: Stone018
+    4300034: Stone019
+    4300036: Stone020
+    4300038: Stone021
+    4300040: Plane004
+    4300042: Stone022
+    4300044: Stone023
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
