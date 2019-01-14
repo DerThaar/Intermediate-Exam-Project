@@ -19,7 +19,7 @@ public class PlayerMovementNew : MonoBehaviour
 	float gravity = 9.8f;
 	float speed;
 	float horizontal;
-	float vertical;	
+	float vertical;
 
 
 	void Awake()
@@ -35,27 +35,27 @@ public class PlayerMovementNew : MonoBehaviour
 		Walking = horizontal != 0f || vertical != 0f;
 		Orbit = horizontal != 0f;   // is used in the CameraMovement Script	
 
-		CheckIfRunningOrSneaking();		
+		CheckIfRunningOrSneaking();
 		CalcMovement(horizontal, vertical);
 		HandleRotation();
 		movement.y = VerticalSpeed();
 		controller.Move(movement * Time.deltaTime);
-	}	
+	}
 
 	void CheckIfRunningOrSneaking()
 	{
-		if (Input.GetAxis("Run") > 0.1f)
+		if (Input.GetAxis("Run") > 0.1f || Input.GetButton("RunAlt"))
 		{
 			speed = RunSpeed;
 			GetComponent<HungerSystem>().HungerGet = 3;
 
 		}
-		else if (Input.GetAxis("Sneak") > 0.1f)
+		else if (Input.GetAxis("Sneak") > 0.1f || Input.GetButton("SneakAlt"))
 		{
 			speed = SneakSpeed;
 			GetComponent<HungerSystem>().HungerGet = 1;
 		}
-		else if(Input.GetAxis("Run") > 0.1f && Input.GetAxis("Sneak") > 0.1f)
+		else if (Input.GetAxis("Run") > 0.1f && Input.GetAxis("Sneak") > 0.1f || Input.GetButton("RunAlt") && Input.GetButton("SneakAlt"))
 		{
 			speed = WalkSpeed;
 			GetComponent<HungerSystem>().HungerGet = 1;
